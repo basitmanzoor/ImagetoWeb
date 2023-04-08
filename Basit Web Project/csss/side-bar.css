@@ -1,0 +1,24 @@
+
+.side-bar{
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.side-bar >  ul:first-child{
+    margin-top: 70px;
+}
+.side-bar > ul > li{
+    list-style: none;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.side-bar > ul > li:hover{
+    color:  rgb(5, 236, 48);
+    cursor: pointer;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./csss/navbar.css" />
+  <link rel="stylesheet" href="./csss/side-bar.css" />
+  <link rel="stylesheet" href="./csss/content.css" />
+  <link rel="stylesheet" href="./csss/content-filter.css" />
+  <link rel="stylesheet" href="./csss/results.css" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <title>Basit's Project</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <aside class="mainlogo">a</aside>
+    <div class="left"> 
+      <div class="search-bar">
+        <ion-icon name="search"></ion-icon>
+        <input type="text" name="" placeholder="Search" id="" />
+      </div>
+    </div>
+    <div class="right">
+      <div class="book-call"><ion-icon name="call"></ion-icon> Book a Call</div>
+      <ul>
+        <li><ion-icon name="chatbubbles"></ion-icon></li>
+        <li><ion-icon name="book"></ion-icon></li>
+        <li><ion-icon name="notifications-outline"></ion-icon></li>
+      </ul>
+      <div class="profile">🧑</div>
+    </div>
+  </nav>
+  <!-- nav bar finish -->
+  <section class="side-bar">
+    <ul>
+      <li><ion-icon name="home-outline" style="color: #12c206;"></ion-icon></li>
+      <li><ion-icon name="bar-chart-outline"></ion-icon></li>
+      <li><ion-icon name="barcode-outline"></ion-icon></li>
+      <li><ion-icon name="bookmark-outline"></ion-icon></li>
+      <li><ion-icon name="time-outline"></ion-icon></li>
+    </ul>
+  </section>
+  <div class="content">
+    <section class="content-filter glass-morphic">
+      <div class="filter-header">
+        <ion-icon name="funnel" class="funnel-icon"></ion-icon>
+        <p>Filter Bar</p>
+      </div>
+      <div class="categories">
+        <div class="main-category category" style="margin-right: 20px">
+          <h4>Main Category:</h4>
+          <ul>
+            <li class="flat-chip">Revenue</li>
+            <li class="flat-chip">Audience</li>
+            <li class="flat-chip">OpEx</li>
+          </ul>
+        </div>
+        <div class="topic category" >
+          <h4>Topic:</h4>
+          <ul>
+            <li class="flat-chip">Audience Development</li>
+            <li class="flat-chip">Content</li>
+            <li class="flat-chip">Outsourcing</li>
+            <li class="flat-chip">Analytics</li>
+            <li class="flat-chip">Engagements</li>
+            <li class="flat-chip">Localization</li>
+            <li class="flat-chip">Ad QA</li>
+            <li class="flat-chip">Incremental</li>
+            <li class="flat-chip">Demand</li>
+            <li class="flat-chip">Ad Server</li>
+            <li class="flat-chip">Full Stack</li>
+          </ul>
+        </div>
+        <div class="features category">
+          <h4>Feature:</h4>
+          <ul>
+            <li class="flat-chip">HB Wrraper</li>
+            <li class="flat-chip">Vast</li>
+            <li class="flat-chip">TAM</li>
+            <li class="flat-chip">Lazy Loading</li>
+            <li class="flat-chip">AI</li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="filled-button button"><div class="applylogo"><ion-icon name="checkmark-circle-outline" ></ion-icon> Apply</button>
+        <button class="outlined-button button">Reset all</button>
+      </div>
+    </section>
+    <!-- divider/ -->
+    <section class="divider">
+      <div class="left">
+        45 Results
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option selected>10</option>
+        </select>
+      </div>
+      <div class="right">
+        <button class="ml"><ion-icon name="grid"></ion-icon></button>
+        <button><ion-icon name="list"></ion-icon></button>
+      </div>
+    </section>
+
+    <div class="cards">
+      <article class="card glass-morphic">
+        <header>
+          <section>
+            <div class="avatar"></div>
+            <div class="list-data">
+              <p style="color: #12c206;">Category</p>
+              <h3>LARGE BRAND NAME</h3>
+            </div>
+          </section>
+          <div class="bookmar"><ion-icon name="bookmark-outline" class="bookmark"></ion-icon></div>
+        </header>
+
+        <div class="text">
+          <p class="mb">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+            magnam quia nobis alias repellendus, aliquam asperiores amet in
+            ipsum nostrum fugit animi libero, quidem praesentium unde hic
+            quibusdam iure qui.
+          </p>
+
+          <h5 class="mba">Features that match applied:</h5>
+          <div class="skills mb">
+            <ul class="mbl">
+              <li class="flat-chip">Programmatic</li>
+              <li class="flat-chip">Revenue/Marketing</li>
+              <li class="flat-chip"> Ad Operations</li>
+              <li class="flat-chip"> VP Growth</li>
+              <li class="flat-chip">Digital Media</li>
+              <li class="flat-chip">Audience development</li>
+            </ul>
+          </div>
+          <div class="">
+            <button class="outlined-button button"><ion-icon name="reader-outline"></ion-icon> See Full Profile</button>
+            <button class="filled-button button-black button"><ion-icon name="document-attach-outline"></ion-icon> Quick
+              View</button>
+          </div>
+        </div>
+      </article>
+      <!-- article 2 -->
+      <article class="card glass-morphic">
+        <header>
+          <section>
+            <div class="avatar"></div>
+            <div class="list-data">
+              <p style="color: #12c206;">Category</p>
+              <h3>LARGE BRAND NAME</h3>
+            </div>
+          </section>
+          <div class="bookmar"><ion-icon name="bookmark-outline" class="bookmark"></ion-icon></div>
+        </header>
+
+        <div class="text">
+          <p class="mb">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+            magnam quia nobis alias repellendus, aliquam asperiores amet in
+            ipsum nostrum fugit animi libero, quidem praesentium unde hic
+            quibusdam iure qui.
+          </p>
+
+          <h5 class="mba">Features that match applied:</h5>
+          <div class="skills mb">
+            <ul class="mbl">
+              <li class="flat-chip">Programmatic</li>
+              <li class="flat-chip">Revenue/Marketing</li>
+              <li class="flat-chip"> Ad Operations</li>
+              <li class="flat-chip"> VP Growth</li>
+              <li class="flat-chip">Digital Media</li>
+              <li class="flat-chip">Audience development</li>
+            </ul>
+          </div>
+          <div class="">
+            <button class="outlined-button button"><ion-icon name="reader-outline"></ion-icon> See Full Profile</button>
+            <button class="filled-button button-black button"><ion-icon name="document-attach-outline"></ion-icon> Quick
+              View</button>
+          </div>
+        </div>
+      </article>
+      <!-- article 3 -->
+      <article class="card glass-morphic">
+        <header>
+          <section>
+            <div class="avatar"></div>
+            <div class="list-data">
+              <p style="color: #12c206;">Category</p>
+              <h3>LARGE BRAND NAME</h3>
+            </div>
+          </section>
+          <div class="bookmar"><ion-icon name="bookmark-outline" class="bookmark"></ion-icon></div>
+        </header>
+
+        <div class="text">
+          <p class="mb">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+            magnam quia nobis alias repellendus, aliquam asperiores amet in
+            ipsum nostrum fugit animi libero, quidem praesentium unde hic
+            quibusdam iure qui.
+          </p>
+
+          <h5 class="mba">Features that match applied:</h5>
+          <div class="skills mb">
+            <ul class="mbl">
+              <li class="flat-chip">Programmatic</li>
+              <li class="flat-chip">Revenue/Marketing</li>
+              <li class="flat-chip"> Ad Operations</li>
+              <li class="flat-chip"> VP Growth</li>
+              <li class="flat-chip">Digital Media</li>
+              <li class="flat-chip">Audience development</li>
+            </ul>
+          </div>
+          <div class="">
+            <button class="outlined-button button"><ion-icon name="reader-outline"></ion-icon> See Full Profile</button>
+            <button class="filled-button button-black button"><ion-icon name="document-attach-outline"></ion-icon> Quick
+              View</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</body>
+
+</html>

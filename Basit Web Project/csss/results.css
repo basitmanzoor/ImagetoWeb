@@ -1,0 +1,67 @@
+.avatar {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: rgb(222, 215, 215);
+    border-radius: 100%;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-gap: 50px;
+    text-align: justify;
+}
+
+.card {
+    padding: 2rem;
+    display: grid;
+    align-content: start;
+    grid-template-rows: max-content 300px 1fr;
+    background-color: rgb(252, 252, 252);
+    border-radius: .5em;
+}
+
+
+.text > div {
+    display: flex;
+    justify-content: space-between;
+
+}
+  .text > div> button {
+    width: 46%;
+    }
+
+.mb{
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.mba{
+    margin-top: 30px;
+}
+  
+
+.card > header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.card > header > section{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills > ul > li{
+    list-style: none;
+    font-size: small;
+}
+.skills > ul{
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.button-black{
+    background-color: black;
+}

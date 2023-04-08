@@ -1,0 +1,151 @@
+.glass-morphic {
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(252, 252, 252);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-morphic .bookmar:hover {
+    color:  rgb(5, 236, 48);
+    cursor: pointer;
+}
+
+
+.content-filter>.filter-header {
+    align-items: center;
+    display: flex;
+}
+
+.content-filter>.filter-header :first-child {
+    margin-right: .7rem;
+    font-size: 1.2rem;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0rem 0rem 0rem;
+    
+}
+
+.categories>.category {
+    margin-top: 10px;
+}
+
+.content-filter .category {
+    margin: 0.3rem 0rem;
+}
+
+.content-filter .category>ul {
+    display: flex;
+}
+
+.content-filter .category>ul>li {
+    list-style: none;
+
+}
+
+
+
+/* utilities */
+.flat-chip {
+    padding: 5px 12px;
+    background-color: rgb(218, 215, 215);
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.content-filter>.buttons {
+    margin-top: 10px
+}
+
+.outlined-button,
+.filled-button {
+    margin: 0;
+    background-color:  rgb(5, 236, 48);
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    padding: 8px 12px;
+    text-align:center;
+    /* font-size: 16px; */
+    cursor: pointer;
+    transition: 400ms;
+    border-radius: 6px;
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.outlined-button,
+.filled-button:hover {
+    background-color: rgb(5, 236, 48);
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.outlined-button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    margin-left: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.outlined-button:hover {
+    background-color: #31ea81;
+}
+
+.divider {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .divider div{
+    /* width: 100px; */
+
+.divider>.right>li {
+    list-style: none;
+}
+
+.divider>.left>select {
+    margin-left: 15px;
+}
+
+.divider>.left>select {
+    margin-left: 15px;
+    padding: 4px 8px;
+}
+
+.divider>.right>button {
+    align-items: center;
+    margin: 0 px 10px;
+    padding: 2px 4px;
+}
+
+.divider>.right>button:first-child {
+    background-color: black;
+    color: white;
+
+}
+
+.divider>.right>button>ion-icon {
+    font-size: 20px;
+}
+
+.divider>.right:first-child {
+    margin-right: 10px;
+
+}
+
+.ml {
+    margin-right: 15px
+}
