@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- This is the Head section -->
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Linking my CSS files -->
   <link rel="stylesheet" href="./csss/navbar.css" />
   <link rel="stylesheet" href="./csss/side-bar.css" />
   <link rel="stylesheet" href="./csss/content.css" />
   <link rel="stylesheet" href="./csss/content-filter.css" />
   <link rel="stylesheet" href="./csss/results.css" />
+  <!-- Linking the ION ICONS to my Webpage -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+  <!-- Linking the google fonts used for this webpage -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap"
     rel="stylesheet">
+  <!-- This is the Title Tag -->
   <title>Basit's Project</title>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
-  </style>
+
 </head>
+<!-- This is the Body section -->
 
 <body>
+  <!-- This is the Navigation bar section -->
   <nav class="navbar">
     <aside class="mainlogo">a</aside>
-    <div class="left"> 
+    <!-- This is the left side of the Navigation bar-->
+    <div class="left">
       <div class="search-bar">
         <ion-icon name="search"></ion-icon>
         <input type="text" name="" placeholder="Search" id="" />
       </div>
     </div>
+    <!-- This is the right side of the Navigation bar-->
     <div class="right">
       <div class="book-call"><ion-icon name="call"></ion-icon> Book a Call</div>
       <ul>
@@ -43,7 +50,7 @@
       <div class="profile">🧑</div>
     </div>
   </nav>
-  <!-- nav bar finish -->
+  <!-- This is the Side Bar section-->
   <section class="side-bar">
     <ul>
       <li><ion-icon name="home-outline" style="color: #12c206;"></ion-icon></li>
@@ -53,6 +60,7 @@
       <li><ion-icon name="time-outline"></ion-icon></li>
     </ul>
   </section>
+  <!-- This is the Filter Bar Section-->
   <div class="content">
     <section class="content-filter glass-morphic">
       <div class="filter-header">
@@ -60,6 +68,7 @@
         <p>Filter Bar</p>
       </div>
       <div class="categories">
+        <!-- This is the Main Category of Filter Bar Section-->
         <div class="main-category category" style="margin-right: 20px">
           <h4>Main Category:</h4>
           <ul>
@@ -68,7 +77,8 @@
             <li class="flat-chip">OpEx</li>
           </ul>
         </div>
-        <div class="topic category" >
+        <!-- This is the Topic Category of Filter Bar Section-->
+        <div class="topic category">
           <h4>Topic:</h4>
           <ul>
             <li class="flat-chip">Audience Development</li>
@@ -84,6 +94,7 @@
             <li class="flat-chip">Full Stack</li>
           </ul>
         </div>
+        <!-- This is the Features Category of Filter Bar Section-->
         <div class="features category">
           <h4>Feature:</h4>
           <ul>
@@ -95,14 +106,18 @@
           </ul>
         </div>
       </div>
+      <!-- This is the Buttons of Filter Bar Section-->
       <div class="buttons">
-        <button class="filled-button button"><div class="applylogo"><ion-icon name="checkmark-circle-outline" ></ion-icon> Apply</button>
+        <button class="filled-button button">
+          <div class="applylogo"><ion-icon name="checkmark-circle-outline"></ion-icon> Apply
+        </button>
         <button class="outlined-button button">Reset all</button>
       </div>
     </section>
     <!-- divider/ -->
     <section class="divider">
       <div class="left">
+        <!-- This is the left side of Divider Section-->
         <div style="font-size: medium;">45 Results</div>
         <select>
           <option>1</option>
@@ -117,13 +132,15 @@
           <option selected>10</option>
         </select>
       </div>
+      <!-- This is the right side of Divider Section-->
       <div class="right">
         <button class="ml"><ion-icon name="grid"></ion-icon></button>
         <button><ion-icon name="list"></ion-icon></button>
       </div>
     </section>
-
+    <!-- This is the Cards Section-->
     <div class="cards">
+      <!-- Article 1 of Cards Section-->
       <article class="card glass-morphic">
         <header>
           <section>
@@ -162,7 +179,7 @@
           </div>
         </div>
       </article>
-      <!-- article 2 -->
+      <!-- Article 2 of Cards Section-->
       <article class="card glass-morphic">
         <header>
           <section>
@@ -201,7 +218,7 @@
           </div>
         </div>
       </article>
-      <!-- article 3 -->
+      <!-- Article 3 of Cards Section-->
       <article class="card glass-morphic">
         <header>
           <section>

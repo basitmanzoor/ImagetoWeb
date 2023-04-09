@@ -1,3 +1,5 @@
+
+/*Styling the filter bar content and cards*/
 .glass-morphic {
     align-items: center;
     padding: 1rem;
@@ -9,12 +11,13 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/*Applying hover effects on bookmarks in cards*/
 .glass-morphic .bookmar:hover {
     color:  rgb(5, 236, 48);
     cursor: pointer;
 }
 
-
+/*Styling Filter section*/
 .content-filter>.filter-header {
     align-items: center;
     display: flex;
@@ -63,6 +66,8 @@
     margin-top: 10px
 }
 
+
+/*Styling buttons of cards*/
 .outlined-button,
 .filled-button {
     margin: 0;
@@ -81,6 +86,8 @@
 
 }
 
+
+/*Styling buttons of cards*/
 .outlined-button,
 .filled-button:hover {
     background-color: rgb(5, 236, 48);
@@ -90,6 +97,9 @@
     border-width: 1px;
 }
 
+
+
+/*Styling buttons of cards*/
 .outlined-button {
     background-color: transparent;
     color: black;
@@ -99,6 +109,9 @@
     font-weight: bold;
 }
 
+
+
+/*Styling buttons of cards*/
 .outlined-button:hover {
     background-color: #31ea81;
 }
@@ -108,9 +121,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-/* .divider div{
-    /* width: 100px; */
 
 .divider>.right>li {
     list-style: none;

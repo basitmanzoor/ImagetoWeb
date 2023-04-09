@@ -1,5 +1,5 @@
 
-/*Styling left side of the nav bar*/
+/*Styling the avatar section of my cards*/
 .avatar {
     height: 50px;
     width: 50px;
@@ -7,6 +7,8 @@
     background-color: rgb(222, 215, 215);
     border-radius: 100%;
 }
+
+/*Applying styling on cards section*/
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
@@ -14,6 +16,7 @@
     text-align: justify;
 }
 
+/*Styling content inside cards*/
 .card {
     padding: 2rem;
     display: grid;
@@ -33,6 +36,7 @@
     width: 46%;
     }
 
+/*Styling content inside cards*/
 .mb{
     font-size: small;
     margin-bottom: 10px;
@@ -42,7 +46,7 @@
     margin-top: 30px;
 }
   
-
+/*Styling headers inside cards*/
 .card > header{
     display: flex;
     align-items: center;
@@ -55,6 +59,7 @@
     justify-content: space-between;
 }
 
+/*Styling lists inside cards*/
 .skills > ul > li{
     list-style: none;
     font-size: small;
