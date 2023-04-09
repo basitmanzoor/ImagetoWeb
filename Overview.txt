@@ -11,11 +11,3 @@ Add icons and fonts: I used Ion Icons for the icons on my webpage. I included th
 Test and debug: Finally, I tested my webpage on different devices and browsers to make sure it displayed correctly. 
 
 Overall, creating this webpage required careful planning, attention to detail, and knowledge of HTML, CSS, and web design best practices.
-
-
-
-
-
-
-
-
