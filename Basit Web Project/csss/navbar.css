@@ -1,3 +1,7 @@
+/*NAVIGATION BAR Styling*/
+
+
+/* Using font Hind Siliguri for my webpage*/
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +9,14 @@
   font-size: small;
 }
 
+/* Setting the position and bg color of the whole web page*/
 body {
   position: relative;
   background-color: rgb(232, 242, 237);
 }
+
+
+/* Setting the styling of the nav bar*/
 .navbar {
   position: relative;
   display: flex;
@@ -21,10 +29,9 @@ body {
   width: 100%;
   box-shadow: 3px 3px #dfdddd94, -1em 0 0.4em olive;
 }
-.mainlogo{
-  font-family: 'Space Mono', monospace;
-}
 
+
+/* Search bar styling */
 .search-bar {
   border: 1px solid rgb(160, 159, 159);
   background-color: #f1efec8f;
@@ -41,6 +48,7 @@ body {
   font-size: 22px;
   color: rgb(5, 236, 48);
 }
+
 .search-bar input {
   padding: 0.5rem;
   border-radius: 2rem;
@@ -51,6 +59,8 @@ body {
   outline: none;
   color: aliceblue;
 }
+
+/*Used Main logo as a font*/
 .mainlogo{
   font-family: 'Space Mono', monospace;
   font-size: larger;
@@ -58,6 +68,8 @@ body {
   font-size: 30px;
   color:  rgb(5, 236, 48);
 }
+
+/*Styling left side of the nav bar*/
 .left {
   display: flex;
   align-items: center;
@@ -70,6 +82,7 @@ body {
   color: rgb(67, 226, 154);
 }
 
+/*Styling right side of the nav bar*/
 .right {
   margin-right: 10px;
   width: 50%;

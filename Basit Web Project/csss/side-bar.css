@@ -1,4 +1,7 @@
+/*SIDE BAR Styling*/
 
+
+/* Applying CSS to the sidebar where fixing it's position under the nav bar */
 .side-bar{
     z-index: -1;
     position: fixed;
@@ -10,14 +13,19 @@
     
 }
 
+/* Applying margin to top of the first icon of side bar */
 .side-bar >  ul:first-child{
     margin-top: 70px;
 }
+
+/* Applying margin to top of the every icon of the list */
 .side-bar > ul > li{
     list-style: none;
     font-size: 30px;
     margin-top: 15px;
 }
+
+/* Icons turn green once you hover on it */
 .side-bar > ul > li:hover{
     color:  rgb(5, 236, 48);
     cursor: pointer;
